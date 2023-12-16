@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'Rail/css/style.css' %}">
+    <title>Galimov Rail</title>
+</head>
+<body>
+    {% include 'Rail/header.html' %}
+    {% block content %}
+
+    {% endblock %}
+    {% include 'Rail/footer.html'%}
+</body>
+</html>
